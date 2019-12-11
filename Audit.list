@@ -1,0 +1,57 @@
+#本条目旨在规避审计规则，自测
+#可选择为REJECT或DIRECT
+# > 360服务
+DOMAIN-SUFFIX,360.cn,Audit
+DOMAIN-SUFFIX,360.com,Audit
+DOMAIN-SUFFIX,so.cn,Audit
+DOMAIN-SUFFIX,so.com,Audit
+DOMAIN-SUFFIX,qihoo.cn,Audit
+DOMAIN-SUFFIX,qihoo.com,Audit
+DOMAIN-SUFFIX,360safe.cn,Audit
+DOMAIN-SUFFIX,360safe.com,Audit
+DOMAIN-SUFFIX,qhimg.cn,Audit
+DOMAIN-SUFFIX,qhimg.com,Audit
+DOMAIN-SUFFIX,360totalsecurity.cn,Audit
+DOMAIN-SUFFIX,360totalsecurity.com,Audit
+DOMAIN-SUFFIX,yunpan.cn,Audit
+DOMAIN-SUFFIX,yunpan.com,Audit
+# > BT下载
+DOMAIN-KEYWORD,xunlei,Audit
+DOMAIN-KEYWORD,Thunder,Audit
+DOMAIN-KEYWORD,sandai,Audit
+DOMAIN-KEYWORD,XLLiveUD,Audit
+# > 腾讯管家
+DOMAIN,guanjia.qq.com,Audit
+DOMAIN-KEYWORD,qqpcmgr,Audit
+DOMAIN-KEYWORD,QQPCMGR,Audit
+# > 金山毒霸
+DOMAIN-SUFFIX,rising.com,Audit
+DOMAIN-SUFFIX,rising.net,Audit
+DOMAIN-SUFFIX,rising.org,Audit
+DOMAIN-SUFFIX,kingsoft.com,Audit
+DOMAIN-SUFFIX,kingsoft.net,Audit
+DOMAIN-SUFFIX,kingsoft.org,Audit
+DOMAIN-SUFFIX,duba.com,Audit
+DOMAIN-SUFFIX,duba.net,Audit
+DOMAIN-SUFFIX,duba.org,Audit
+DOMAIN-SUFFIX,xindubawukong.com,Audit
+DOMAIN-SUFFIX,xindubawukong.net,Audit
+DOMAIN-SUFFIX,xindubawukong.org,Audit
+DOMAIN-SUFFIX,jinshanduba.com,Audit
+DOMAIN-SUFFIX,jinshanduba.net,Audit
+DOMAIN-SUFFIX,jinshanduba.org,Audit
+# > HKTS
+DOMAIN-SUFFIX,netvigator.com,Audit
+DOMAIN-SUFFIX,netvigator.cn,Audit
+DOMAIN-SUFFIX,netvigator.net,Audit
+DOMAIN-SUFFIX,netvigator.org,Audit
+DOMAIN-SUFFIX,torproject.com,Audit
+DOMAIN-SUFFIX,torproject.cn,Audit
+DOMAIN-SUFFIX,torproject.net,Audit
+DOMAIN-SUFFIX,torproject.org,Audit
+# > Baidu
+DOMAIN-SUFFIX,baidu,DIRECT
+DOMAIN-SUFFIX,shifen,DIRECT
+# > 金融诈骗
+DOMAIN-SUFFIX,mycard.com,REJECT
+DOMAIN-SUFFIX,mycard.tw,REJECT
