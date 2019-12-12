@@ -21,9 +21,9 @@ DOMAIN-KEYWORD,Thunder,Audit
 DOMAIN-KEYWORD,sandai,Audit
 DOMAIN-KEYWORD,XLLiveUD,Audit
 # > 腾讯管家
-DOMAIN,guanjia.qq.com,Audit
-DOMAIN-KEYWORD,qqpcmgr,Audit
-DOMAIN-KEYWORD,QQPCMGR,Audit
+DOMAIN,guanjia.qq.com,Direct
+DOMAIN-KEYWORD,qqpcmgr,Direct
+DOMAIN-KEYWORD,QQPCMGR,Direct
 # > 金山毒霸
 DOMAIN-SUFFIX,rising.com,Audit
 DOMAIN-SUFFIX,rising.net,Audit
