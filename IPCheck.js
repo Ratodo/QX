@@ -22,7 +22,7 @@ var flags = new Map([[ "AC" , "🇦🇨" ] , [ "AF" , "🇦🇫" ] , [ "AI" , "�
 var body = $response.body;
 var obj = JSON.parse(body);
 var title =flags.get(obj['countryCode']) + ' '+ obj['city'];
-var subtitle =''+obj['city']+'-'+'('+ ORG_ValidCheck(obj['org'])+')'+'';
+var subtitle =''+obj['country']+'-'+'('+ ORG_ValidCheck(obj['org'])+')'+'';
 var ip = obj['query'];
 var description = 'Server:'+obj['isp'] + '\n'+'Region:' + obj['regionName'] + ' ' +obj['city'] + '\n' + 'IP:'+ obj['query'] + '\n' +'AS:'+ obj['as'];
 $done({title, subtitle, ip, description});
