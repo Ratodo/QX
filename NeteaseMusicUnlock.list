@@ -1,0 +1,10 @@
+#仅可用于网易云分流代理
+DOMAIN-SUFFIX,music.163.com,Netease
+DOMAIN-SUFFIX,interface.music.163.com,Netease
+IP-CIDR,103.126.92.132/31,Netease
+IP-CIDR,59.111.181.38/32,Netease
+IP-CIDR,59.111.181.60/32,Netease
+IP-CIDR,223.252.199.66/31,Netease
+IP-CIDR,59.111.160.195/32,Netease
+IP-CIDR,59.111.160.197/32,Netease
+IP-CIDR,59.111.181.35/32,Netease
