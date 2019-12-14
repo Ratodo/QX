@@ -20,10 +20,6 @@ DOMAIN-KEYWORD,xunlei,Audit
 DOMAIN-KEYWORD,Thunder,Audit
 DOMAIN-KEYWORD,sandai,Audit
 DOMAIN-KEYWORD,XLLiveUD,Audit
-# > 腾讯管家
-DOMAIN,guanjia.qq.com,Direct
-DOMAIN-KEYWORD,qqpcmgr,Direct
-DOMAIN-KEYWORD,QQPCMGR,Direct
 # > 金山毒霸
 DOMAIN-SUFFIX,rising.com,Audit
 DOMAIN-SUFFIX,rising.net,Audit
@@ -50,8 +46,8 @@ DOMAIN-SUFFIX,torproject.cn,Audit
 DOMAIN-SUFFIX,torproject.net,Audit
 DOMAIN-SUFFIX,torproject.org,Audit
 # > Baidu
-DOMAIN-SUFFIX,baidu,DIRECT
-DOMAIN-SUFFIX,shifen,DIRECT
+DOMAIN-KEYWORD,baidu,DIRECT
+DOMAIN-KEYWORD,shifen,DIRECT
 # > 金融诈骗
 DOMAIN-SUFFIX,mycard.com,REJECT
 DOMAIN-SUFFIX,mycard.tw,REJECT
