@@ -6,9 +6,6 @@ if ($response.statusCode != 200) {
 }
 
 var org0 = "Maying.co";
-function getRandomInt(max) {
-  return Math.floor(Math.random() * Math.floor(max));
-}
 
 function ORG_ValidCheck(para) {
   if(para) {
@@ -24,6 +21,6 @@ var body = $response.body;
 var obj = JSON.parse(body);
 var title =flags.get(obj['country_code']) + ' '+ obj['city'];
 var subtitle =''+obj['country']+'-'+'('+ ORG_ValidCheck(obj['organization'])+')'+'';
-var ip = obj['query'];
-var description = 'Server:'+ORG_ValidCheck(obj['organization']) + '\n'+'Region:' + obj['city'] + ' ' +obj['region'] + '\n' + 'IP:'+ obj['query'] + '\n' +'Timezone:'+ obj['timezone'];
+var ip = obj['ip'];
+var description = 'Server:'+ORG_ValidCheck(obj['organization']) + '\n'+'Region:' + obj['city'] + ' ' +obj['region'] + '\n' + 'IP:'+ obj['ip'] + '\n' +'Timezone:'+ obj['timezone'];
 $done({title, subtitle, ip, description});
