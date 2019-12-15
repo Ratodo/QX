@@ -1,6 +1,6 @@
 //基于KOP-XIAO源代码进行修改。
 //源项目地址：https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/IP_API.js
-//使用的API，https://api.ip.sb/geoip
+//使用的API，http://ip-api.com/json/
 if ($response.statusCode != 200) {
   $done(null);
 }
