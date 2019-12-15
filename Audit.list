@@ -25,11 +25,8 @@ DOMAIN-KEYWORD,kingsoft,Audit
 DOMAIN-KEYWORD,xindubawukong,Audit
 DOMAIN-KEYWORD,jinshanduba,Audit
 # > HKTS
-DOMAIN-KEYWORD,netvigator,Audit
-DOMAIN-KEYWORD,torproject,Audit
-# > Baidu
-DOMAIN-KEYWORD,baidu,DIRECT
-DOMAIN-KEYWORD,shifen,DIRECT
+DOMAIN-KEYWORD,netvigator,REJECT
+DOMAIN-KEYWORD,torproject,REJECT
 # > 金融诈骗
 DOMAIN-SUFFIX,mycard.com,REJECT
 DOMAIN-SUFFIX,mycard.tw,REJECT
