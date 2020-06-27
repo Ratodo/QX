@@ -4,7 +4,7 @@
 if ($response.statusCode != 200) {
   $done(null);
 }
-var org0 = "Maying.co";
+var org0 = "FASTLINK";
 function ORG_ValidCheck(para) {
   if(para) {
   return para
